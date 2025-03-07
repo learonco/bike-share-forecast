@@ -1,0 +1,28 @@
+[project]
+name = "ba-bikeshare-forecast"
+version = "2025.0.0"
+dependencies = [
+    "notebook",
+    "ipykernel",
+    "python-duckdb",
+    "vl-convert-python",
+    "polars",
+    "pyarrow",
+    "lonboard"
+]
+requires-python = ">=3.12"
+authors = [
+  {name = "Leandro Roncoroni"}
+]
+maintainers = [
+  {name = "Leandro Roncoroni"}
+]
+description = "Forecast the BA bike share demand"
+readme = "README.md"
+keywords = ["Buenos Aires", "bike share"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/learonco/bike-share-forecast.git"
