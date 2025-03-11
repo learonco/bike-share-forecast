@@ -8,6 +8,7 @@ dependencies = [
     "vl-convert-python",
     "polars",
     "pyarrow",
+    "shapely",
     "lonboard"
 ]
 requires-python = ">=3.12"
